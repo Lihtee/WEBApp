@@ -1,0 +1,17 @@
+.menu-item{
+    display: inline-block;
+    width: 30%;
+    border: 1px solid black;
+    height: 4em;
+    text-align: center;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+}
+
+.menu-item:hover{
+    background-color: #5b5d5b;
+}
+body{
+    background-color: #000;
+    color: #ab9ea9;
+}

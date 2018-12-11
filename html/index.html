@@ -3,32 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link type="text/css" rel="stylesheet" href="/WEB/styles/index.css">
+    <link type="text/css" rel="stylesheet" href="/WEBApp/styles/index2.css">
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    <script src="/WEB/scripts/react_tmer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="/WEBApp/node_modules/bootstrap/js/dist/popover.js"></script>
+    <script src="/WEBApp/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="/WEBApp/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+
 </head>
-<body>
-<div id="auth">
-        Login
-    </div>
-    <div id="menu">
-        <div id="mitem1" class="menu-item">
-            <a href="first.html">Menu item 1</a>
+<body class="my-body">
+
+<div id="react-timer"></div>
+<div id="menu" class="container">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div id="mitem1" class="menu-item col-sm-4">
+                Menu item 1
+
+            </div>
+
+            <div id="mitem2" class="menu-item col-sm-4">
+                Menu item 2
+            </div>
+            <div id="mitem3" class="menu-item col-sm-4">
+                Menu item 3
+            </div>
         </div>
-        <div id="mitem2" class="menu-item">
-            Menu item 2
+        <div class="row justify-content-center">
+            <div id="mitem11" class="menu-item col-sm-4">
+                Menu item 1
+
+            </div>
+
+            <div id="rotate-sparcles" class="menu-item col-sm-4">
+                Rotate sparkles
+            </div>
+            <div id="sparcles_on" class="menu-item col-sm-4">
+                Add sparkles
+            </div>
         </div>
-        <div id="mitem3" class="menu-item">
-            Menu item 3
-        </div>
     </div>
-    <div id="pageContent">
-        Content
-    </div>
-    <div id="footer">
-        Footer
-    </div>
+</div>
+<div id="sparcles"></div>
+
+<script src="/WEBApp/dist/react_tmer.js"></script>
+<script src="/WEBApp/scripts/sparcles.js"></script>
+<script src="/WEBApp/scripts/jQueryRotate.js"></script>
 
 </body>
 </html>
